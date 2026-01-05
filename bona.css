@@ -1,0 +1,98 @@
+/*main container of logo and text*/
+
+/* .main-container{
+    
+    border: 10px solid black;
+   
+} */
+img{
+  width: 120px;
+}
+h1,h3{
+  margin-left: 17%;
+}
+
+.container{
+
+    margin-right: 10px;
+    
+  
+  
+}
+
+/*overall content part */
+.submain{
+  
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+ font-family: 'Times New Roman', Times, serif; 
+  font-size: 20px;
+  margin-top: auto;
+  word-spacing: normal;
+}
+
+/* x1 class for bolding span tag */
+.x1{
+    font-weight: bold;
+}
+
+#roll-element{
+    float: left;
+}
+#branch-element{
+    float: right;
+}
+.textindent{
+   
+    text-indent: 50px;
+    
+   
+
+}
+.main-container {
+  margin: 60px;
+  border: 2px solid black;
+}
+
+
+
+.main{
+  margin:20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.submain{
+  
+  
+  margin-left: 50px;
+  
+}
+#Div-Right{
+
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btninline{
+  display:inline-block;
+ 
+}
+@media only print{
+    body{
+
+        visibility: hidden;
+    } 
+    .main-container{
+        visibility: visible;
+    }  
+}
+
+
+
+
+

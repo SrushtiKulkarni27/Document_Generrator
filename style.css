@@ -1,0 +1,150 @@
+body{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+   background: linear-gradient(90deg, #035865 0%, #7fcdee 100%);
+
+
+}
+
+*{
+   font-family: sans-serif;
+   box-sizing: border-box;
+}
+
+form{
+
+ width:30%;
+ height:70%;
+ border: 2px solid #ccc;
+ padding: 35px;
+ background: #fff;
+ align-items: center; 
+ 
+}
+h2{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+input{
+display: block;
+border: 2px solid #ccc;
+width: 95%;
+padding: 10px;
+margin: 10px auto;
+}
+
+label{
+color: #888;
+font-size: 18px;
+padding: 10px;
+}
+
+button{
+padding: 10px;
+float: right;
+background-color: rgb(40, 137, 182);
+border-radius: 2px;
+border-color: rgb(40, 137, 182);
+cursor: pointer;
+color:white;
+margin: 10px;
+align-items: center;
+width:94%;
+font-weight:bold;
+
+
+
+}
+button:hover{
+   opacity: .8;
+
+}
+
+.error{
+background: #F2DEDE;
+color: #A94442;
+padding: 10px;
+width: 95%;
+margin: 20px auto;
+}
+
+
+h1{
+  text-align: center;
+  color: #fff;
+}
+
+a{
+   padding: 10px;
+   float: left;
+   background:#2C3E50;
+   border-radius: 3px;
+   cursor: pointer;
+   color: white;
+   margin: 10px;
+   text-decoration: none;
+   
+   
+   }
+a:hover{
+      opacity: .8;
+   
+   }
+#bona{
+    align-items: center;
+    width:85%;
+    background-color: antiquewhite;
+    float:right;
+    border-radius: 3px;
+    color:rgb(2, 2, 4);
+    margin:10px;
+
+}
+#Aform{
+    align-items: center;
+    width:85%;
+    background-color: antiquewhite;
+    float:right;
+    border-radius: 3px;
+    color:black;
+    margin:10px;
+
+}
+
+.btn{
+ float: center;
+ font-size: 22px;
+ padding:10px;
+ height: 5%;
+}
+button i{
+   color: #A0AEC0;
+   margin-right: .5em;
+   transition: all .2s ease-out;
+ }
+ /*.multi-button:hover button{
+   color: #A0AEC0;
+ }*/
+ 
+ .multi-button:hover button:hover{
+   background: rgb(40, 137, 182);
+   color: #fff;
+   box-shadow: 0 0 0.8em 0 rgb(40, 137, 182);
+   transform: translateY(-.2em);
+
+ }
+ .multi-button:hover button i{
+   color: #CBD5E0;
+ }
+ .multi-button:hover button:hover i{
+   color: #FED7E2;
+   /*transform: rotate(-10deg);*/
+ }
+
+
+

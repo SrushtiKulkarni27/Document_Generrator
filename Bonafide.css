@@ -1,0 +1,94 @@
+.main-container{
+    
+    border: 10px solid black;
+   
+}
+.container{
+
+    margin-right: 200px;
+    
+  
+  
+}
+/*overall content part */
+.submain{
+  
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+ font-family: 'Times New Roman', Times, serif; 
+  font-size: 20px;
+  margin-top: auto;
+  word-spacing: normal;
+}
+
+/* x1 class for bolding span tag */
+.x1{
+    font-weight: bold;
+}
+
+#roll-element{
+    float: left;
+}
+#branch-element{
+    float: right;
+}
+.textindent{
+   
+    text-indent: 50px;
+    
+   
+
+}
+.main-container{
+    margin:25px;
+    border: 2px solid black;
+}
+
+.main{
+  margin:15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.submain{
+  
+  
+  margin-left: 50px;
+  
+}
+.buttoncss{
+  display: inline-block;
+  margin:15px;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #dfe2ed;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.buttoncss:hover {background-color:#e2e2e2}
+.buttoncss:active {
+  background-color: #e2e2e2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.btninline{
+  display:inline-block;
+ 
+}
+@media only print{
+    body{
+
+        visibility: hidden;
+    } 
+    .main-container{
+        visibility: visible;
+    }  
+}
