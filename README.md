@@ -22,6 +22,12 @@ This system improves efficiency, reduces manual errors, and saves significant ad
 -Fetches student details from the database.
 -Dynamically generates documents.
 
+ Output
+
 <img width="1109" height="573" alt="image" src="https://github.com/user-attachments/assets/69e9759f-a6a8-4c88-a56f-86f7313b9c30" />
+<img width="1106" height="428" alt="image" src="https://github.com/user-attachments/assets/b2449850-fdec-4e2e-a74a-72c18dff8931" />
+<img width="1103" height="567" alt="image" src="https://github.com/user-attachments/assets/5b91579b-ce96-4f54-961f-668f698c4ce4" />
+
+
 
 
