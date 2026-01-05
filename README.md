@@ -21,3 +21,7 @@ This system improves efficiency, reduces manual errors, and saves significant ad
 -Processes form inputs (Roll Number).
 -Fetches student details from the database.
 -Dynamically generates documents.
+
+<img width="1109" height="573" alt="image" src="https://github.com/user-attachments/assets/69e9759f-a6a8-4c88-a56f-86f7313b9c30" />
+
+
