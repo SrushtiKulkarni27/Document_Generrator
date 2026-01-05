@@ -1,0 +1,23 @@
+📌 Project Overview
+
+The Document Generator System is a web-based application developed to automate the repetitive and time-consuming process of manually creating student documents in the college student section.
+Instead of preparing documents by hand, staff members can simply enter a student’s Roll Number, and the system automatically fetches the corresponding student data from the database to generate official documents such as:
+
+-Bonafide Certificate
+-Leaving Certificate
+-Form 15A
+This system improves efficiency, reduces manual errors, and saves significant administrative time.
+
+🛠️ Technologies Used
+1.Frontend-HTML & CSS
+-Used to create the structure and design of the web pages.
+
+2.Bootstrap
+-Enables responsive design and faster UI development.
+-Ensures compatibility across different screen sizes.
+
+3.Backend-PHP
+-Handles server-side logic.
+-Processes form inputs (Roll Number).
+-Fetches student details from the database.
+-Dynamically generates documents.
